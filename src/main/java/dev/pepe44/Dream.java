@@ -33,7 +33,7 @@ public class Dream {
         INSTANCE = this;
 
         DefaultShardManagerBuilder builder = new DefaultShardManagerBuilder();
-        builder.setToken("NzIxMDA4NjMwMTIzNTkzNzU4.XuOUtg.45I0xIchJH81BWzQD8RjF2USmz0");
+        builder.setToken("");
 
         builder.setActivity(Activity.playing("#help"));
         builder.setStatus(OnlineStatus.ONLINE);
