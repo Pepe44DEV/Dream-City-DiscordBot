@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class SQLLite {
 
-    private static Connection conni;
+    /*private static Connection conni;
 
     public static void connect() {
         conni = null;
@@ -24,6 +24,6 @@ public class SQLLite {
 
 
 
-    }
+    }*/
 
 }

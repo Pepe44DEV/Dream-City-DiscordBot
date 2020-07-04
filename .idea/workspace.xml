@@ -10,16 +10,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d9a02c3-0f57-44ba-a5fe-a07d301bccbe" name="Default Changelist" comment="-removed Token">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Dream.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/manager/SQLLite.java" afterDir="false" />
+    <list default="true" id="3d9a02c3-0f57-44ba-a5fe-a07d301bccbe" name="Default Changelist" comment="Added SQL Handler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Dream-Discord.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/Dream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/pepe44/Dream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/commands/InfoCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dev/pepe44/commands/InfoCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/pepe44/manager/SQLLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/manager/SQLLite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/Dream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/commands/ClearCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/commands/CommandManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/commands/HelpCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/commands/InfoCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/commands/StatusCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/commands/types/ServerCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/listener/CommandListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/music/AudioLoadResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/music/AudioPlayerSendHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/music/MusicContorller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/music/PlayCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/music/PlayerManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/music/StopCommand.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592071948077</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added SQL Handler">
+      <created>1593901834240</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593901834240</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,13 +128,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+Music Player&#10;+Moderation commands" />
     <MESSAGE value="-removed Token" />
-    <option name="LAST_COMMIT_MESSAGE" value="-removed Token" />
+    <MESSAGE value="Added SQL Handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SQL Handler" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1592069632287">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/-1920.12.1920.1080/1920.25.1920.1080@0.0.1920.1050" timestamp="1584634145723" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592069632287" />
     <state x="710" y="384" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1592474005114">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -133,67 +147,56 @@
     <state width="1877" height="335" key="GridCell.Tab.0.bottom" timestamp="1592752093402">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.12.1920.1080/1920.25.1920.1080@0.0.1920.1050" timestamp="1584634907683" />
-    <state width="1877" height="180" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.12.1920.1080/1920.25.1920.1080@1920.25.1920.1080" timestamp="1584643336411" />
     <state width="1877" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592752093402" />
     <state width="1877" height="335" key="GridCell.Tab.0.center" timestamp="1592752093401">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="180" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.12.1920.1080/1920.25.1920.1080@0.0.1920.1050" timestamp="1584634907683" />
-    <state width="1877" height="180" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.12.1920.1080/1920.25.1920.1080@1920.25.1920.1080" timestamp="1584643336410" />
     <state width="1877" height="335" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592752093401" />
     <state width="1877" height="335" key="GridCell.Tab.0.left" timestamp="1592752093401">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="180" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.12.1920.1080/1920.25.1920.1080@0.0.1920.1050" timestamp="1584634907682" />
-    <state width="1877" height="180" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.12.1920.1080/1920.25.1920.1080@1920.25.1920.1080" timestamp="1584643336410" />
     <state width="1877" height="335" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592752093401" />
     <state width="1877" height="335" key="GridCell.Tab.0.right" timestamp="1592752093402">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1860" height="180" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.12.1920.1080/1920.25.1920.1080@0.0.1920.1050" timestamp="1584634907683" />
-    <state width="1877" height="180" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.12.1920.1080/1920.25.1920.1080@1920.25.1920.1080" timestamp="1584643336410" />
     <state width="1877" height="335" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592752093402" />
     <state width="1877" height="225" key="GridCell.Tab.1.bottom" timestamp="1592074100005">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="330" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.12.1920.1080/1920.25.1920.1080@0.0.1920.1050" timestamp="1584577866357" />
     <state width="1877" height="225" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592074100005" />
     <state width="1877" height="225" key="GridCell.Tab.1.center" timestamp="1592074100004">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="330" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.12.1920.1080/1920.25.1920.1080@0.0.1920.1050" timestamp="1584577866357" />
     <state width="1877" height="225" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592074100004" />
     <state width="1877" height="225" key="GridCell.Tab.1.left" timestamp="1592074100004">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="330" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.12.1920.1080/1920.25.1920.1080@0.0.1920.1050" timestamp="1584577866357" />
     <state width="1877" height="225" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592074100004" />
     <state width="1877" height="225" key="GridCell.Tab.1.right" timestamp="1592074100004">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="330" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.12.1920.1080/1920.25.1920.1080@0.0.1920.1050" timestamp="1584577866357" />
     <state width="1877" height="225" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592074100004" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1592474144988">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592474144988" />
-    <state x="337" y="191" key="Vcs.Push.Dialog.v2" timestamp="1592071952619">
+    <state x="337" y="191" key="Vcs.Push.Dialog.v2" timestamp="1593901869485">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="337" y="191" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592071952619" />
+    <state x="337" y="191" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1593901869485" />
     <state x="785" y="463" key="classpath-attribute-editor" timestamp="1592474138811">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="785" y="463" key="classpath-attribute-editor/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592474138811" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593902165927">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1593902165927" />
     <state x="771" y="386" key="git4idea.rebase.GitRebaseDialog" timestamp="1592071756478">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="771" y="386" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592071756478" />
-    <state x="702" y="155" key="refactoring.ChangeSignatureDialog" timestamp="1584609435468">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="702" y="155" key="refactoring.ChangeSignatureDialog/0.0.1920.1050/-1920.12.1920.1080/1920.25.1920.1080@0.0.1920.1050" timestamp="1584609435468" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Papo$Papo.ic" NAME="Papo Coverage Results" MODIFIED="1584577408028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
