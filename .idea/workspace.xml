@@ -10,23 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d9a02c3-0f57-44ba-a5fe-a07d301bccbe" name="Default Changelist" comment="Added SQL Handler">
+    <list default="true" id="3d9a02c3-0f57-44ba-a5fe-a07d301bccbe" name="Default Changelist" comment="Removed SQL Handler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/pepe44/manager/SQLLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/manager/SQLLite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/Dream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/commands/ClearCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/commands/CommandManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/commands/HelpCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/commands/InfoCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/commands/StatusCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/commands/types/ServerCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/listener/CommandListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/music/AudioLoadResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/music/AudioPlayerSendHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/music/MusicContorller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/music/PlayCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/music/PlayerManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dev/pepe44/music/StopCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/pepe44/Dream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/Dream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593901834240</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removed SQL Handler">
+      <created>1593902248357</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593902248357</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,7 +123,8 @@
     <MESSAGE value="+Music Player&#10;+Moderation commands" />
     <MESSAGE value="-removed Token" />
     <MESSAGE value="Added SQL Handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SQL Handler" />
+    <MESSAGE value="Removed SQL Handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed SQL Handler" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1592069632287">
@@ -144,22 +139,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="761" y="349" key="FileChooserDialogImpl/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592473997747" />
-    <state width="1877" height="335" key="GridCell.Tab.0.bottom" timestamp="1592752093402">
+    <state width="1877" height="109" key="GridCell.Tab.0.bottom" timestamp="1593903774996">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592752093402" />
-    <state width="1877" height="335" key="GridCell.Tab.0.center" timestamp="1592752093401">
+    <state width="1877" height="109" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1593903774996" />
+    <state width="1877" height="109" key="GridCell.Tab.0.center" timestamp="1593903774996">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="335" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592752093401" />
-    <state width="1877" height="335" key="GridCell.Tab.0.left" timestamp="1592752093401">
+    <state width="1877" height="109" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1593903774996" />
+    <state width="1877" height="109" key="GridCell.Tab.0.left" timestamp="1593903774996">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="335" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592752093401" />
-    <state width="1877" height="335" key="GridCell.Tab.0.right" timestamp="1592752093402">
+    <state width="1877" height="109" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1593903774996" />
+    <state width="1877" height="109" key="GridCell.Tab.0.right" timestamp="1593903774996">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="335" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592752093402" />
+    <state width="1877" height="109" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1593903774996" />
     <state width="1877" height="225" key="GridCell.Tab.1.bottom" timestamp="1592074100005">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -180,11 +179,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592474144988" />
-    <state x="337" y="191" key="Vcs.Push.Dialog.v2" timestamp="1593901869485">
+    <state x="337" y="191" key="Vcs.Push.Dialog.v2" timestamp="1593902255763">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="337" y="191" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592071952619" />
-    <state x="337" y="191" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1593901869485" />
+    <state x="337" y="191" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1593902255763" />
     <state x="785" y="463" key="classpath-attribute-editor" timestamp="1592474138811">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
