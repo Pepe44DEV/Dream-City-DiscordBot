@@ -5,6 +5,7 @@ import com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager;
 import com.sedmelluq.discord.lavaplayer.source.AudioSourceManagers;
 import dev.pepe44.commands.CommandManager;
 import dev.pepe44.listener.CommandListener;
+import dev.pepe44.manager.MYSQL;
 import dev.pepe44.music.PlayerManager;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
@@ -25,12 +26,15 @@ public class Dream {
     private CommandManager cmdMan;
     public AudioPlayerManager audioPlayerManager;
     public PlayerManager playerManager;
+    public static MYSQL mysql;
 
     public static void main(String[] args) throws LoginException {
         new Dream();
     }
     public Dream() throws LoginException {
         INSTANCE = this;
+
+         mysql = new MYSQL();
 
         DefaultShardManagerBuilder builder = new DefaultShardManagerBuilder();
         builder.setToken("");
@@ -51,6 +55,8 @@ public class Dream {
 
         AudioSourceManagers.registerRemoteSources(audioPlayerManager);
         audioPlayerManager.getConfiguration().setFilterHotSwapEnabled(true);
+
+
 
 
         shutdown();

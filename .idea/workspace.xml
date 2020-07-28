@@ -10,10 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d9a02c3-0f57-44ba-a5fe-a07d301bccbe" name="Default Changelist" comment="Removed SQL Handler">
+    <list default="true" id="3d9a02c3-0f57-44ba-a5fe-a07d301bccbe" name="Default Changelist" comment="Fixed Maven">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/commands/TimeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/manager/MYSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/pepe44/Dream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/Dream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/pepe44/commands/CommandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/commands/CommandManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="discord-application" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Dream">
     <configuration name="Dream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.pepe44.Dream" />
       <module name="Dream-Discord" />
@@ -52,9 +56,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dev.pepe44.test" />
+      <module name="Dream-Discord" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dev.pepe44.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Dream" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593902248357</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed Maven">
+      <created>1593904036118</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593904036118</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,7 +149,8 @@
     <MESSAGE value="-removed Token" />
     <MESSAGE value="Added SQL Handler" />
     <MESSAGE value="Removed SQL Handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed SQL Handler" />
+    <MESSAGE value="Fixed Maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Maven" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1592069632287">
@@ -139,51 +165,59 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="761" y="349" key="FileChooserDialogImpl/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592473997747" />
-    <state width="1877" height="109" key="GridCell.Tab.0.bottom" timestamp="1593903774996">
+    <state width="1877" height="220" key="GridCell.Tab.0.bottom" timestamp="1595970273481">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592752093402" />
-    <state width="1877" height="109" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1593903774996" />
-    <state width="1877" height="109" key="GridCell.Tab.0.center" timestamp="1593903774996">
+    <state width="1877" height="220" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1595970273481" />
+    <state width="1877" height="149" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@1920.339.1920.1080" timestamp="1595968052934" />
+    <state width="1877" height="220" key="GridCell.Tab.0.center" timestamp="1595970273481">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="335" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592752093401" />
-    <state width="1877" height="109" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1593903774996" />
-    <state width="1877" height="109" key="GridCell.Tab.0.left" timestamp="1593903774996">
+    <state width="1877" height="220" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1595970273481" />
+    <state width="1877" height="149" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@1920.339.1920.1080" timestamp="1595968052934" />
+    <state width="1877" height="220" key="GridCell.Tab.0.left" timestamp="1595970273481">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="335" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592752093401" />
-    <state width="1877" height="109" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1593903774996" />
-    <state width="1877" height="109" key="GridCell.Tab.0.right" timestamp="1593903774996">
+    <state width="1877" height="220" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1595970273481" />
+    <state width="1877" height="149" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@1920.339.1920.1080" timestamp="1595968052933" />
+    <state width="1877" height="220" key="GridCell.Tab.0.right" timestamp="1595970273481">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="335" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592752093402" />
-    <state width="1877" height="109" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1593903774996" />
-    <state width="1877" height="225" key="GridCell.Tab.1.bottom" timestamp="1592074100005">
+    <state width="1877" height="220" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1595970273481" />
+    <state width="1877" height="149" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@1920.339.1920.1080" timestamp="1595968052934" />
+    <state width="1877" height="220" key="GridCell.Tab.1.bottom" timestamp="1595970273286">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="225" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592074100005" />
-    <state width="1877" height="225" key="GridCell.Tab.1.center" timestamp="1592074100004">
+    <state width="1877" height="220" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1595970273286" />
+    <state width="1877" height="220" key="GridCell.Tab.1.center" timestamp="1595970273285">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="225" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592074100004" />
-    <state width="1877" height="225" key="GridCell.Tab.1.left" timestamp="1592074100004">
+    <state width="1877" height="220" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1595970273285" />
+    <state width="1877" height="220" key="GridCell.Tab.1.left" timestamp="1595970273285">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="225" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592074100004" />
-    <state width="1877" height="225" key="GridCell.Tab.1.right" timestamp="1592074100004">
+    <state width="1877" height="220" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1595970273285" />
+    <state width="1877" height="220" key="GridCell.Tab.1.right" timestamp="1595970273286">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="225" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592074100004" />
+    <state width="1877" height="220" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1595970273286" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1592474144988">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592474144988" />
-    <state x="337" y="191" key="Vcs.Push.Dialog.v2" timestamp="1593902255763">
+    <state x="337" y="191" key="Vcs.Push.Dialog.v2" timestamp="1593904074367">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="337" y="191" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592071952619" />
-    <state x="337" y="191" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1593902255763" />
+    <state x="337" y="191" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1593904074367" />
     <state x="785" y="463" key="classpath-attribute-editor" timestamp="1592474138811">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -196,6 +230,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="771" y="386" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1050/-1920.203.1920.1080/1920.203.1920.1080@0.0.1920.1050" timestamp="1592071756478" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1595960592254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/-1920.339.1920.1080/1920.339.1920.1080@0.0.1920.1050" timestamp="1595960592254" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Papo$Papo.ic" NAME="Papo Coverage Results" MODIFIED="1584577408028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
