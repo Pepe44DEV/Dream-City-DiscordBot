@@ -13,8 +13,8 @@ public class MYSQL {
 
     private String host = "localhost";
     private String port = "3306";
-    private String dbname = "time";
-    private String user = "root";
+    private String dbname = "essentialmode";
+    private String user = "";
     private String pass = "";
 
     Connection conn = null;
@@ -29,7 +29,7 @@ public class MYSQL {
         }
         try {
             System.out.println("Start Connection...");
-            String url = "jdbc:mysql://"+host+":"+port+"/"+dbname;
+            String url = "jdbc:mysql://"+host+":"+port+"/"+dbname+"?idleConnectionTestPeriod=10&idleConnectionTestPeriod=10&useUnicode=yes";
             conn = DriverManager.getConnection(url, user, pass);
 
             System.out.println("*launch Statement");

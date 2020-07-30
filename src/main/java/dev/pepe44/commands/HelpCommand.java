@@ -12,7 +12,8 @@ public class HelpCommand implements ServerCommand {
 
     String help = ("```#play <url>         Speilt Musik \n" +
             "#clear <amount>     Löscht Chanel Nachrichten \n" +
-            "#status             Zeigt den Status des Servers```");
+            "#status             Zeigt den Status des Servers \n" +
+            "#time <steamname>   Zeigt Deine Aktuelle Server Spielzeit```");
 
 
     @Override
