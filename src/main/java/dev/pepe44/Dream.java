@@ -40,7 +40,7 @@ public class Dream {
          mysql = new MYSQL();
 
 
-        JDABuilder b = JDABuilder.createDefault("NzIxMDA4NjMwMTIzNTkzNzU4.XuORnQ.Xl9r5y0tvCES1OUYGkcuRJaRpV4K");
+        JDABuilder b = JDABuilder.createDefault("");
 
 
         b.setActivity(Activity.playing("#help"));
