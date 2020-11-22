@@ -7,6 +7,8 @@ import dev.pepe44.commands.CommandManager;
 import dev.pepe44.listener.CommandListener;
 import dev.pepe44.manager.MYSQL;
 import dev.pepe44.music.PlayerManager;
+import net.dv8tion.jda.api.JDA;
+import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.sharding.DefaultShardManagerBuilder;
@@ -20,9 +22,10 @@ import java.io.InputStreamReader;
 public class Dream {
 
     public static Dream INSTANCE;
+    public JDA bot;
 
 
-    public ShardManager shardMan;
+    //public ShardManager shardMan;
     private CommandManager cmdMan;
     public AudioPlayerManager audioPlayerManager;
     public PlayerManager playerManager;
@@ -36,21 +39,22 @@ public class Dream {
 
          mysql = new MYSQL();
 
-        DefaultShardManagerBuilder builder = new DefaultShardManagerBuilder();
-        builder.setToken("");
 
-        builder.setActivity(Activity.playing("#help"));
-        builder.setStatus(OnlineStatus.ONLINE);
+        JDABuilder b = JDABuilder.createDefault("NzIxMDA4NjMwMTIzNTkzNzU4.XuORnQ.Xl9r5y0tvCES1OUYGkcuRJaRpV4K");
+
+
+        b.setActivity(Activity.playing("#help"));
+        b.setStatus(OnlineStatus.ONLINE);
 
         this.audioPlayerManager = new DefaultAudioPlayerManager();
         this.playerManager = new PlayerManager();
 
 
         this.cmdMan = new CommandManager();
-        builder.addEventListeners(new CommandListener());
+        b.addEventListeners(new CommandListener());
 
 
-        shardMan = builder.build();
+        bot = b.build();
         System.out.println("Bot online");
 
         AudioSourceManagers.registerRemoteSources(audioPlayerManager);
@@ -72,9 +76,8 @@ public class Dream {
                 while((line = reader.readLine()) != null) {
 
                     if (line.equalsIgnoreCase("exit")) {
-                        if (shardMan != null) {
-                            shardMan.setStatus(OnlineStatus.OFFLINE);
-                            shardMan.shutdown();
+                        if (bot != null) {
+                            bot.shutdown();
                             System.out.println("Bot offline");
                         }
 

@@ -18,7 +18,7 @@ public class PlayerManager {
         if (this.controller.containsKey(guildid)) {
             mc = this.controller.get(guildid);
         }else{
-            mc = new MusicContorller((Dream.INSTANCE.shardMan.getGuildById(guildid)));
+            mc = new MusicContorller((Dream.INSTANCE.bot.getGuildById(guildid)));
 
             this.controller.put(guildid, mc);
 
