@@ -16,17 +16,18 @@
     <list default="true" id="3d9a02c3-0f57-44ba-a5fe-a07d301bccbe" name="Default Changelist" comment="added MySQL Support&#10;added Playtime Command">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Papo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/pepe44/Dream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/Dream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/pepe44/commands/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/commands/HelpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/pepe44/music/PlayerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/music/PlayerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/pepe44/listener/CommandListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/listener/CommandListener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,7 +42,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -53,18 +54,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="discord-application" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunManager" selected="Application.Dream">
     <configuration name="Dream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="dev.pepe44.Dream" />
-      <module name="Dream-CityBot" />
+      <module name="Dream-City-DiscordBot" />
+      <option name="PROGRAM_PARAMETERS" value="NzIxMDA4NjMwMTIzNTkzNzU4.XuORnQ.1GdgYGSibclxz4YSfLaUOpwhtm8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,6 +132,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Dream" />
+      <item itemvalue="Application.test" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Dream" />
@@ -136,7 +143,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -147,6 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584574326292</updated>
+      <workItem from="1606669513178" duration="3529000" />
     </task>
     <task id="LOCAL-00001" summary="+Music Player&#10;+Moderation commands">
       <created>1592071678069</created>
@@ -200,6 +208,9 @@
     <option name="localTasksCounter" value="8" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -222,33 +233,53 @@
     <option name="LAST_COMMIT_MESSAGE" value="added MySQL Support&#10;added Playtime Command" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1606075944453">
-      <screen x="0" y="0" width="1920" height="1036" />
+    <state x="657" y="140" key="#Dream" timestamp="1606672117799">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="657" y="140" key="#Dream/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606672117799" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606672401831">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606672401831" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1606669835655">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606669835655" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606672775956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606672775956" />
     <state width="1877" height="289" key="GridCell.Tab.0.bottom/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@-1920.244.1920.1036" timestamp="1606075750916" />
     <state width="1877" height="289" key="GridCell.Tab.0.bottom/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1606075944453" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1606075944452">
-      <screen x="0" y="0" width="1920" height="1036" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606672775956">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606672775956" />
     <state width="1877" height="289" key="GridCell.Tab.0.center/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@-1920.244.1920.1036" timestamp="1606075750916" />
     <state width="1877" height="289" key="GridCell.Tab.0.center/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1606075944452" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1606075944452">
-      <screen x="0" y="0" width="1920" height="1036" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606672775955">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606672775955" />
     <state width="1877" height="289" key="GridCell.Tab.0.left/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@-1920.244.1920.1036" timestamp="1606075750915" />
     <state width="1877" height="289" key="GridCell.Tab.0.left/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1606075944452" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1606075944453">
-      <screen x="0" y="0" width="1920" height="1036" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606672775956">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606672775956" />
     <state width="1877" height="289" key="GridCell.Tab.0.right/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@-1920.244.1920.1036" timestamp="1606075750916" />
     <state width="1877" height="289" key="GridCell.Tab.0.right/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1606075944453" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1606673049723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606673049723" />
     <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1606076055300">
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="552" y="250" key="Vcs.Push.Dialog.v2/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1606076055300" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Papo$Papo.ic" NAME="Papo Coverage Results" MODIFIED="1584577408028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Dream_Discord$Dream.ic" NAME="Dream Coverage Results" MODIFIED="1592068536419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606669783067">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606669783067" />
   </component>
 </project>

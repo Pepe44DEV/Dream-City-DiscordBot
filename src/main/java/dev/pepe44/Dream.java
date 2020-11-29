@@ -31,16 +31,26 @@ public class Dream {
     public PlayerManager playerManager;
     public static MYSQL mysql;
 
+    public static final String GUILD = "679392951159226368";
+    public static final String CHANNEL_VERBESSERUNG = "782612502650945546";
+    public static final String CHANNEL_TODO = "775787300356358146";
+
     public static void main(String[] args) throws LoginException {
-        new Dream();
+        if(args.length == 1) {
+            new Dream(args[0]);
+        } else {
+            System.out.println("Token muss als erster Parameter angegeben sein!");
+            System.exit(1);
+        }
+
     }
-    public Dream() throws LoginException {
+    public Dream(String token) throws LoginException {
         INSTANCE = this;
 
          mysql = new MYSQL();
 
 
-        JDABuilder b = JDABuilder.createDefault("");
+        JDABuilder b = JDABuilder.createDefault(token);
 
 
         b.setActivity(Activity.playing("#help"));
