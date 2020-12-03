@@ -10,11 +10,11 @@ import java.awt.*;
 
 public class InfoCommand implements ServerCommand {
 
-    String Text = ("\uD83C\uDFABWebsite: Null-Point.de \n" +
+    String Text = ("\uD83C\uDFAB Website: dream-city.net \n" +
             "\n" +
-            "\uD83C\uDFA4Teamspeak: null-point.de \n" +
+            "\uD83C\uDFA4 Teamspeak: dream-city \n" +
             "\n" +
-            "\uD83D\uDDA5Direct Connect IP: 92.42.45.167");
+            "\uD83D\uDDA5 Direct Connect IP: 92.42.45.167");
 
 
     @Override
