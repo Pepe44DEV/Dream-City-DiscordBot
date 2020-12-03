@@ -36,18 +36,17 @@ public class Dream {
     public static final String CHANNEL_TODO = "775787300356358146";
 
     public static void main(String[] args) throws LoginException {
-        if(args.length == 1) {
-            new Dream(args[0]);
+        if(args.length == 3) {
+            new Dream(args[0], args[1], args[2]);
         } else {
-            System.out.println("Token muss als erster Parameter angegeben sein!");
+            System.out.println("Parameter: 1: Token, 2:DBUser, 3:DBPW");
             System.exit(1);
         }
-
     }
-    public Dream(String token) throws LoginException {
+    public Dream(String token, String dbuser, String dbpw) throws LoginException {
         INSTANCE = this;
 
-         mysql = new MYSQL();
+         mysql = new MYSQL("localhost", "3306", "essentialmode", dbuser, dbpw);
 
 
         JDABuilder b = JDABuilder.createDefault(token);

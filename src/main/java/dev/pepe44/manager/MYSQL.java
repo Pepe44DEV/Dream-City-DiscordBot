@@ -9,17 +9,9 @@ public class MYSQL {
     private Statement statement;
     private ResultSet resultSet;
     ArrayList<String[]> result = new ArrayList<String[]>();
-
-
-    private String host = "localhost";
-    private String port = "3306";
-    private String dbname = "essentialmode";
-    private String user = "";
-    private String pass = "";
-
     Connection conn = null;
 
-    public MYSQL() {
+    public MYSQL(String host, String port, String dbname, String user, String pass) {
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
