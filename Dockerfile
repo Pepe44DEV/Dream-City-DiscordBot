@@ -9,5 +9,5 @@ WORKDIR /bot
 ADD bot.jar /
 
 RUN echo "#!/bin/bash \n java -jar bot.jar ${token} ${DBUSER} ${DBPW}" > /entrypoint.sh
-RUN chmod +x ./entrypoint.sh
-ENTRYPOINT ["./entrypoint.sh"]
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT ["sh /entrypoint.sh"]
