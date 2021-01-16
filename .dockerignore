@@ -1,0 +1,8 @@
+target/
+.github/
+.idea/
+.mvn/
+META-INF/
+src/
+pom.xml
+.gitignore
