@@ -1,3 +1,4 @@
+git pull
 rm bot.jar
 mvn clean package
 mv target/DreamCityDCK-1.0-SNAPSHOT-jar-with-dependencies.jar bot.jar

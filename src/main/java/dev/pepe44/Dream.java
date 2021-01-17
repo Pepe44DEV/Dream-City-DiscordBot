@@ -31,22 +31,25 @@ public class Dream {
     public PlayerManager playerManager;
     public static MYSQL mysql;
 
+    public static String youtrack;
+
     public static final String GUILD = "679392951159226368";
     public static final String CHANNEL_VERBESSERUNG = "782612502650945546";
     public static final String CHANNEL_TODO = "775787300356358146";
 
     public static void main(String[] args) throws LoginException {
-        if(args.length == 3) {
-            new Dream(args[0], args[1], args[2]);
+        if(args.length == 4) {
+            new Dream(args[0], args[1], args[2], args[3]);
         } else {
-            System.out.println("Parameter: 1: Token, 2:DBUser, 3:DBPW");
+            System.out.println("Parameter: 1: Token, 2:DBUser, 3:DBPW, 4:YouTrack Token");
             System.exit(1);
         }
     }
-    public Dream(String token, String dbuser, String dbpw) throws LoginException {
+    public Dream(String token, String dbuser, String dbpw, String youtrack) throws LoginException {
         INSTANCE = this;
+        this.youtrack = youtrack;
 
-         mysql = new MYSQL("localhost", "3306", "essentialmode", dbuser, dbpw);
+        mysql = null; //new MYSQL("localhost", "3306", "essentialmode", dbuser, dbpw);
 
 
         JDABuilder b = JDABuilder.createDefault(token);

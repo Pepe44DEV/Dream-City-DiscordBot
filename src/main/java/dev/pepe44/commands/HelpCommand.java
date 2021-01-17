@@ -23,6 +23,7 @@ public class HelpCommand implements ServerCommand {
         builder.addField("#clear", "Löscht Channel Nachrichten", false);
         builder.addField("#time", "Zeigt Deine Aktuelle Server Spielzeit", false);
         builder.addField("#status", "Zeigt den Status des Servers", false);
+        builder.addField("#issue <Nachricht>", "Meldet einen Fehler", false);
         builder.setColor(Color.decode("#15ad3d"));
         channel.sendMessage(builder.build()).queue();
 

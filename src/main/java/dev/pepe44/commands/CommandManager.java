@@ -23,6 +23,7 @@ public class CommandManager {
         this.commands.put("status", new StatusCommand());
         this.commands.put("setup", new InfoCommand());
         this.commands.put("time", new TimeCommand());
+        this.commands.put("issue", new IssueCommand());
     }
     public boolean perform(String command, Member m, TextChannel channel, Message message){
         ServerCommand cmd;
