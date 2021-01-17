@@ -13,13 +13,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d9a02c3-0f57-44ba-a5fe-a07d301bccbe" name="Default Changelist" comment="added MySQL Support&#10;added Playtime Command">
+    <list default="true" id="3d9a02c3-0f57-44ba-a5fe-a07d301bccbe" name="Default Changelist" comment="Added YouTrack Support">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/pepe44/Dream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/Dream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/pepe44/listener/CommandListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/listener/CommandListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/pepe44/commands/IssueCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/pepe44/commands/IssueCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +40,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -56,31 +54,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Dream">
+  <component name="RunManager">
     <configuration name="Dream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="dev.pepe44.Dream" />
-      <module name="Dream-City-DiscordBot" />
-      <option name="PROGRAM_PARAMETERS" value="NzIxMDA4NjMwMTIzNTkzNzU4.XuORnQ.1GdgYGSibclxz4YSfLaUOpwhtm8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dev.pepe44.test" />
-      <module name="Dream-Discord" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dev.pepe44.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <module name="DreamCityDCK" />
+      <option name="PROGRAM_PARAMETERS" value="NzIxMDA4NjMwMTIzNTkzNzU4.XuORnQ.-RYhDLGWDuZOttKkFmFP5bF_3ws r pw perm:Qm90.NDgtMQ==.DIfsLr118osSbgbcn2HMYr9KUr0FVx" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,18 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Dream" />
-      <item itemvalue="Application.test" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Dream" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -155,6 +136,9 @@
       <option name="presentableId" value="Default" />
       <updated>1584574326292</updated>
       <workItem from="1606669513178" duration="3529000" />
+      <workItem from="1610797999558" duration="5784000" />
+      <workItem from="1610841521941" duration="5824000" />
+      <workItem from="1610891583032" duration="1278000" />
     </task>
     <task id="LOCAL-00001" summary="+Music Player&#10;+Moderation commands">
       <created>1592071678069</created>
@@ -205,11 +189,60 @@
       <option name="project" value="LOCAL" />
       <updated>1595970767071</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Docker Support">
+      <created>1610798887133</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610798887133</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Updated Docker Support">
+      <created>1610799415425</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610799415425</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updated Docker Support">
+      <created>1610800587616</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610800587616</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Updated Docker Support">
+      <created>1610800645820</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610800645820</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updated Docker Support">
+      <created>1610800916452</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610800916452</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated Docker Support">
+      <created>1610801382476</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610801382476</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added YouTrack Support">
+      <created>1610849041459</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610849041459</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -230,53 +263,72 @@
     <MESSAGE value="Removed SQL Handler" />
     <MESSAGE value="Fixed Maven" />
     <MESSAGE value="added MySQL Support&#10;added Playtime Command" />
-    <option name="LAST_COMMIT_MESSAGE" value="added MySQL Support&#10;added Playtime Command" />
+    <MESSAGE value="Added Docker Support" />
+    <MESSAGE value="Updated Docker Support" />
+    <MESSAGE value="Added YouTrack Support" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added YouTrack Support" />
   </component>
   <component name="WindowStateProjectService">
     <state x="657" y="140" key="#Dream" timestamp="1606672117799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="657" y="140" key="#Dream/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606672117799" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606672401831">
+    <state x="552" y="161" key="#Plugins" timestamp="1610798175929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="161" key="#Plugins/1920.342.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610798175929" />
+    <state x="316" y="166" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610844195440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606672401831" />
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1606669835655">
+    <state x="316" y="166" width="1092" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.342.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610844195440" />
+    <state x="708" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610799264691">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="322" key="#com.intellij.fileTypes.FileTypeChooser/1920.342.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610799264691" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1610842134111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606669835655" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1606672775956">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/1920.342.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610842134111" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1610849063889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606672775956" />
     <state width="1877" height="289" key="GridCell.Tab.0.bottom/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@-1920.244.1920.1036" timestamp="1606075750916" />
     <state width="1877" height="289" key="GridCell.Tab.0.bottom/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1606075944453" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1606672775956">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.342.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610849063889" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1610849063889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606672775956" />
     <state width="1877" height="289" key="GridCell.Tab.0.center/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@-1920.244.1920.1036" timestamp="1606075750916" />
     <state width="1877" height="289" key="GridCell.Tab.0.center/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1606075944452" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1606672775955">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/1920.342.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610849063889" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1610849063889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606672775955" />
     <state width="1877" height="289" key="GridCell.Tab.0.left/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@-1920.244.1920.1036" timestamp="1606075750915" />
     <state width="1877" height="289" key="GridCell.Tab.0.left/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1606075944452" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1606672775956">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/1920.342.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610849063889" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1610849063889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606672775956" />
     <state width="1877" height="289" key="GridCell.Tab.0.right/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@-1920.244.1920.1036" timestamp="1606075750916" />
     <state width="1877" height="289" key="GridCell.Tab.0.right/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1606075944453" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1606673049723">
+    <state width="1877" height="281" key="GridCell.Tab.0.right/1920.342.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610849063889" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1610843957627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/-1280.0.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1606673049723" />
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1606076055300">
-      <screen x="0" y="0" width="1920" height="1036" />
+    <state x="440" y="94" key="SettingsEditor/1920.342.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610843957627" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2" timestamp="1610849051092">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="250" key="Vcs.Push.Dialog.v2/-1920.244.1920.1036/1920.244.1920.1080/0.0.1920.1036@0.0.1920.1036" timestamp="1606076055300" />
+    <state x="552" y="251" key="Vcs.Push.Dialog.v2/1920.342.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610849051092" />
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606669783067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

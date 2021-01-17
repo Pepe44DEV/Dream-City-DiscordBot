@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Dream-Discord" />
         <module name="Dream-City-DiscordBot" />
         <module name="Dream-CityBot" />
+        <module name="Dream-Discord" />
+        <module name="DreamCityDCK" />
       </profile>
     </annotationProcessing>
   </component>

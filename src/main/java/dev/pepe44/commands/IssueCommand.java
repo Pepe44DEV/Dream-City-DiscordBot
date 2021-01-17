@@ -54,16 +54,25 @@ public class IssueCommand implements ServerCommand {
                 JSONObject project = new JSONObject();
                 project.put("id", "0-1");
                 object.put("project", project);
-                System.out.println(object.toString());
+
                 HttpResponse<String> resp = Unirest.post("https://bug.dream-city.net/api/issues")
                         .header("Authorization", "Bearer " + Dream.youtrack)
                         .header("Content-Type", "application/json")
                         .body(object.toString())
                         .asString();
                 if(resp.getStatus() == 200) {
-                    channel.sendMessage("Vielen Dank für die Meldung. Der Fehler wurde aufgenommen.").queue();
+                    message.delete().queue();
+                    channel.sendMessage("Vielen Dank für die Meldung. Der Fehler wurde aufgenommen.").queue(message1 -> {
+                        try {
+                            Thread.sleep(5000);
+                            message1.delete().queue();
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    });
                 } else {
                     channel.sendMessage("Ein Fehler ist beim Erstellen der Meldung aufgetreten." + resp.getStatus()).queue();
+                    System.out.println(object.toString());
                     System.out.println(resp.getBody());
                 }
             } catch (UnirestException e) {
