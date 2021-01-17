@@ -49,7 +49,7 @@ public class Dream {
         INSTANCE = this;
         this.youtrack = youtrack;
 
-        mysql = null; //new MYSQL("localhost", "3306", "essentialmode", dbuser, dbpw);
+        mysql = new MYSQL("localhost", "3306", "essentialmode", dbuser, dbpw);
 
 
         JDABuilder b = JDABuilder.createDefault(token);
