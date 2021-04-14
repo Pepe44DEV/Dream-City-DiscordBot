@@ -36,6 +36,7 @@ public class Dream {
     public static final String GUILD = "679392951159226368";
     public static final String CHANNEL_VERBESSERUNG = "782612502650945546";
     public static final String CHANNEL_TODO = "775787300356358146";
+    public static final String CHANNEL_ARCHIVE = "784137474971664434";
 
     public static void main(String[] args) throws LoginException {
         if(args.length == 4) {

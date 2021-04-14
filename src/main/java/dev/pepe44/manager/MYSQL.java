@@ -21,7 +21,7 @@ public class MYSQL {
         }
         try {
             System.out.println("Start Connection...");
-            String url = "jdbc:mysql://"+host+":"+port+"/"+dbname+"?idleConnectionTestPeriod=10&idleConnectionTestPeriod=10&useUnicode=yes&autoReconnect=true";
+            String url = "jdbc:mysql://"+host+":"+port+"/"+dbname+"?idleConnectionTestPeriod=10useUnicode=yes&autoReconnect=true";
             conn = DriverManager.getConnection(url, user, pass);
 
             System.out.println("*launch Statement");
